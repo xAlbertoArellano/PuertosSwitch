@@ -1,0 +1,68 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main()
+    {
+        Console.WriteLine("Ingresa dato (1-11):");
+        int choose = Convert.ToInt32(Console.ReadLine());
+
+        int puerto = 0; 
+
+        switch (choose)
+        {
+            case 1:
+                puerto = 8980;
+                break;
+
+            case 2:
+                puerto = 8981;
+                break;
+
+            case 3:
+                puerto = 8982;
+                break;
+
+            case 4:
+                puerto = 8983;
+                break;
+
+            case 5:
+                puerto = 8984;
+                break;
+
+            case 6:
+                puerto = 8985;
+                break;
+
+            case 7:
+                puerto = 8986;
+                break;
+
+            case 8:
+                puerto = 8987;
+                break;
+
+            case 9:
+                puerto = 8988;
+                break;
+
+            case 10:
+                puerto = 8989;
+                break;
+
+            case 11:
+                puerto = 8990;
+                break;
+
+            default:
+                Console.WriteLine("Opción no válida.");
+                return; 
+        }
+
+        Console.WriteLine($"Puerto seleccionado: {puerto}");
+    }
+}
